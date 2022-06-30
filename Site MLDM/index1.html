@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MLDM, a sua loja!</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
     <style>
         div {
             margin-right: 40pt;
@@ -17,16 +18,33 @@
             font-size: 20pt;
             font-family: arial;
         }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 250px;
+            max-width: 700px;
+            margin: auto;
+        }
+        img {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
-        <h1>
-            <img src="Imagem 42.jpg" alt="" srcset="">
-            <img src="+55 62 3222-3222.jpg" alt="" srcset="">
-            <img src="Grupo 295.jpg" alt="" srcset="">
-            <img src="Home                           Sobre                           Ambientes corporativos                           Ambientes Residenciais                         Novidades                         .jpg" alt="" srcset="">
+                <picture>
+                    <source media="(max-width: 20px)" srcset="">
+                    <img src="Imagem 42.jpg" alt="logo-loja" srcset="Imagem 42.jpg">
+                </picture>
+                <img src="+55 62 3222-3222.jpg" alt="whatsapp-loja" srcset="+55 62 3222-3222.jpg">
+                <img src="Grupo 295.jpg" alt="" srcset="Grupo 295.jpg">
+                <picture>
+                    <source media="(max-width: 800px)" srcset="">
+                    <img src="Home                           Sobre                           Ambientes corporativos                           Ambientes Residenciais                         Novidades                         .jpg" alt="menu-loja" srcset="Home                           Sobre                           Ambientes corporativos                           Ambientes Residenciais                         Novidades                         .jpg">
+                </picture>
+            </picture>
             <li>
-        </h1>
         <h1>
             Indústria de Móveis
         </h1>
